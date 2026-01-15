@@ -699,21 +699,15 @@
 
 
 
-
+/* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
     #cs-contact-242 {
-        margin: 0;
         padding: var(--sectionPadding);
-
-        background-image: url('../Pictures/pieaman4.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-
-        min-height: 80vh;
+        background-image: url('pictures/pieaman4.jpg');
+        background-size: contain;
+         margin: 0;
+    padding: 0;
     }
-}
-
     #cs-contact-242 .cs-container {
         
         width: 100%;
@@ -748,30 +742,33 @@
 
 
     #cs-contact-242 .cs-title {
-    font-family: "Rye", serif;
-    font-size: 3rem;
-    font-weight: 400;
-    margin-bottom: 30px;
-    color: #ffffff;
+        font-family: "Rye", serif;
+        font-size: 3rem;   /* 👈 BIG TITLE */
+        font-weight: 400;
+        margin-bottom: 30px;
+        color: #ffffff;
+    }
 }
 
-#cs-contact-242 .cs-text {
-    font-family: "Rye", serif;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-bottom: 30px;
-    color: #ffffff;
-}
-
-#cs-contact-242 #cs-form-242 {
-    width: 100%;
-    margin-bottom: clamp(2rem, 5.3vw, 2.5rem);
-    padding: clamp(1.25rem, 4.5vw, 2.5rem);
-    box-sizing: border-box;
-    border: 1px solid #ffffff;
-    border-radius: 1rem;
-}
-
+    #cs-contact-242 .cs-text {
+       font-family: "Rye", serif;
+        font-size: 1rem;   /* 👈 BIG TITLE */
+        font-weight: 400;
+        margin-bottom: 30px;
+        color: #ffffff;
+        
+    }
+    #cs-contact-242 #cs-form-242 {
+        width: 100%;
+        /* 32px - 40px */
+        margin-bottom: clamp(2rem, 5.3vw, 2.5rem);
+        /* 20px - 40px */
+        padding: clamp(1.25rem, 4.5vw, 2.5rem);
+        /* prevents padding and border from affecting height and width */
+        box-sizing: border-box;
+        border: 1px solid #ffffff;
+        border-radius: 1rem;
+    }
     #cs-contact-242 .cs-label {
         /* 14px - 16px */
         font-size: clamp(0.875rem, 1.3vw, 1rem);
@@ -873,9 +870,11 @@
     }
     #cs-contact-242 .cs-label {
         width: 48%;
+        color: #ffffff;
     }
     #cs-contact-242 .cs-label-message {
         width: 100%;
+        color: #ffffff;
     }
     #cs-contact-242 .cs-button-solid {
         margin-left: 0;
