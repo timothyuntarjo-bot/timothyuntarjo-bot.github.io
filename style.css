@@ -892,14 +892,9 @@
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
     #cs-contact-242 .cs-container {
-        max-width: 80rem;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        column-gap: 1.25em;
-        row-gap: 4rem;
-    }
+    background: transparent;
+}
+
     #cs-contact-242 #cs-form-242 {
         width: 50%;
         max-width: 40.625rem;
