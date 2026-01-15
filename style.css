@@ -871,10 +871,12 @@
     #cs-contact-242 .cs-label {
         width: 48%;
         color: #ffffff;
+        background: transparent
     }
     #cs-contact-242 .cs-label-message {
         width: 100%;
         color: #ffffff;
+        background: transparent
     }
     #cs-contact-242 .cs-button-solid {
         margin-left: 0;
