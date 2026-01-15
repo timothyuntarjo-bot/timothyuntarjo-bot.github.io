@@ -700,14 +700,20 @@
 
 
 
-/* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
     #cs-contact-242 {
+        margin: 0;
         padding: var(--sectionPadding);
-        background-size: contain;
-         margin: 0;
-    padding: 0;
+
+        background-image: url('../pictures/backgroundwhite.avif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        min-height: 80vh;
     }
+}
+
     #cs-contact-242 .cs-container {
         
         width: 100%;
