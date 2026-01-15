@@ -705,7 +705,7 @@
         margin: 0;
         padding: var(--sectionPadding);
 
-        background-image: url('../pictures/backgroundwhite.avif');
+        background-image: url('Pictures/backgroundwhite.avif');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
